@@ -8,14 +8,14 @@ Este proyecto es una exploración de cómo los programadores humanos y las intel
 
 Busco demostrar que la colaboración entre humanos y la IA puede ser más poderosa que cualquiera trabajando por separado. Mi misión es perfeccionar mis habilidades de programación, comprender mejor cómo piensa una IA y aprender a trabajar con ella de manera eficiente.
 
-Cada vez la IA programa mejor, y se viene diciendo desde hace tiempo que ya no es buena idea estudiar programación, porque ahora las máquinas pueden hablar como nosotros.
+Cada vez la IA programa mejor, y se viene diciendo desde hace tiempo que ya no es buena idea estudiar programación, porque ahora las máquinas pueden hablar como nosotros, es decir, podemos comunicarnos con ellas en nuestro propio lenguaje, y en el futuro, no será necesario utilizar el suyo (lenguajes de programación) para nada.
 
 Entiendo el punto, pero esta situación me hace preguntarme algunas cosas:
 
 - ¿De verdad somos completamente innecesarios en esta área?
 - ¿Hay algún aporte que con mi enfoque humano pueda aportar para que la IA funcione mejor?
-- ¿Qué es lo que se le da mejor a la IA? ¿Hay algo que se le pueda dar mejor a un programador humano?
-- ¿Cómo podemos conseguir trabajar juntos de la mejor manera posible? (al menos adaptado a mi caso de uso)
+- ¿Qué es lo que se le da mejor a la IA? ¿Hay algo que pueda hacer mejor a un programador humano?
+- ¿Cómo podemos conseguir trabajar juntos de la mejor manera posible?
 - ¿Qué podemos aprender de cómo la IA resuelve problemas para mejorar nuestras habilidades?
 
 Tengo muchas más dudas, por eso he decidido arrancar este proyecto, para entender mejor cómo pienso yo a la hora de diseñar una solución a problemas de programación, cómo piensa la IA, qué hace ella mejor y en qué podemos complementarnos.
@@ -31,11 +31,13 @@ Codewars nos ofrece un sistema por niveles o rangos, estos van desde el kyu 8 ha
 Las reglas que he establecido son las siguientes:
 
 1. Resolver cada kata utilizando mi conocimiento y la documentación disponible en internet, pero sin buscar asistencia de la IA para generar código.
-2. Cuando obtenga una solución, pediré a un LLM (específicamente el modelo `o1` de OpenAI) que genere su solución propia al reto (sin mostrarle mi solución) y le haré preguntas, y charlaremos un rato para reflexionar sobre ambos enfoques.
+2. Cuando obtenga una solución, pediré a un LLM (específicamente el modelo `o1` de OpenAI) que genere su solución propia al reto (sin mostrarle mi solución), le haré preguntas, y charlaremos un rato para reflexionar sobre ambos enfoques.
 3. Documentar cada paso del proceso: desde el planteamiento inicial hasta las reflexiones finales, con el objetivo de sacar conclusiones valiosas sobre la colaboración entre humanos e IA.
 
 ## Estructura del repositorio
 
+- **`assets/`**: Recursos adicionales, como diagramas y visualizaciones.
+- **`docs/`**: Contiene la documentación del proyecto, que podrás encontrar en el siguiente enlace: [Documentación del Proyecto](https://www.manuelespejo.com/codewars-ai-challenge/)
 - **`problems/`**: Contiene los problemas organizados por nivel de dificultad (de Kyu 6 a Kyu 1). (He dejado el kyu 8 y 7 fuera, porque en mi cuenta ya pasé estos rangos en su momento)
   - Cada problema incluye:
     - `solution.py`: Mi solución al problema.
@@ -43,7 +45,6 @@ Las reglas que he establecido son las siguientes:
     - `gpt_solution.py`: La solución generada por la IA.
     - `comparison.md`: Comparativa entre ambas soluciones y debate final.
     - `diagram.png`: Esquema visual de la lógica del código (si aplica)
-- **`assets/`**: Recursos adicionales, como diagramas y visualizaciones.
 
 ### Documentación reflexiva
 
