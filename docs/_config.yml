@@ -1,0 +1,47 @@
+# Configuración básica del sitio
+title: Reflexiones y Aprendizajes
+description: Documentación y análisis del proceso de desarrollo
+baseurl: "/codewars-ai-challenge"
+url: ""
+
+# Configuración de construcción
+markdown: kramdown
+highlighter: rouge
+
+# Plugins
+plugins:
+  - jekyll-feed
+  - jekyll-seo-tag
+  - jekyll-sitemap
+
+# Configuración de colecciones
+collections:
+  reflexiones:
+    output: true
+    permalink: /reflexiones/:name/
+  aprendizajes:
+    output: true
+    permalink: /aprendizajes/:name/
+
+# Valores predeterminados
+defaults:
+  - scope:
+      path: ""
+      type: "posts"
+    values:
+      layout: "post"
+  - scope:
+      path: ""
+      type: "reflexiones"
+    values:
+      layout: "articulo"
+  - scope:
+      path: ""
+      type: "aprendizajes"
+    values:
+      layout: "articulo"
+  - scope:
+      path: ""
+      type: "decisiones"
+    values:
+      layout: "articulo" 
